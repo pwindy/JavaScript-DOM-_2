@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+/*home*/
+	header .img_right{
+		position:absolute;
+		right:0;
+		bottom:0;
+	}
+
+	div.home p{
+		padding:20px 0;
+		font-size:12px;
+	}
+	div.home p a{
+		background:#EEBB66;
+		color:#000;
+	}
+	div.home p a:hover{
+		background:#FFBB55;
+	}
+	div.home div.img{
+		position:relative;
+		width:150px;
+		height:150px;
+		border-radius: 25px;
+		overflow:hidden;
+	}
+	div.home div.img .home_box{
+		position:absolute;
+	}
+
+/*about*/
+	div.about ol{
+		margin-left: 15px;
+	}
+	div.about ol li a{
+		background:#EEBB66;
+		color:#000;
+	}
+	div.about ol li a:hover{
+		background:#FFBB55;
+	}
+	div.about ol li{
+		font:bold 12px '微软雅黑';
+		margin-top:5px;
+	}
+	/*article>div{
+		display:none;
+	}*/
+	div.about .tit_l{
+		margin:40px 0 20px;
+		font:normal 20 px '微软雅黑';
+	}
+	div.about p{
+		margin:5px 0;
+	}
+
+/*photos*/
+	div.photos ul li{
+		display:inline-block;
+	}
+	div.photos ul li a{
+		display:block;
+		width:100px;
+		height:100px;
+		overflow:hidden;
+	}
+	div.photos p{
+		margin:10px 0 5px;
+		height:20px;
+		font-size:12px;
+	}
+	div.photos #imagegallery{
+		width:400px;
+		height:300px;
+		overflow:hidden;
+		border:1px solid #aaa;
+	}
+
+/*live*/
+	div.live table{
+		margin-top:10px;
+	}
+	div.live table tr{
+		font-weight:lighter;
+	}
+
+	div.live table tbody .odd{
+		background:#EECC88;
+	}
+	div.live table tbody .even{
+		background:#EEBB66;
+	}
+
+	div.live table td{
+		height:25px;
+		padding: 5px 20px;
+		font-size:12px;
+	}
+	div.live table tr th{
+		height:20px;
+		color:#fff;
+		padding: 3px 20px;
+		background:#445555;
+	}
+
+	div.live table tr.highlight td {
+	  color: #223;
+	  background-color: #cba;
+	}
+
+/*contact*/
+.contact h1 {
+	text-align:center;
+}
+
+.contact fieldset {
+	border: dashed #70b370;
+	border-width: 1px 1px 0 1px;
+	margin: 0 auto 3px auto;
+	padding: 8px 0 8px 0;
+	text-align: left;
+	width: 460px;
+}
+
+.contact fieldset.nolabel {
+	/*border-width: 1px 0 0 0;*/
+	border-width: 1px;
+}
+
+.contact label {
+	float: left;
+	margin: 3px 6px 0 0;
+	text-align: right;
+	width: 170px;
+}
+
+.contact input {
+	width: 250px;
+}
+.contact .nolabel input{
+	display:block;
+	width:100px;
+	margin-left: 172px;
+}
+
+.contact textarea {
+	width: 250px;
+}
+
+/*#contact fieldset.nolabel input {
+	margin: 0 0 0 176px;
+	width: 100px;
+}*/
+
+.contact fieldset p {
+	color: #900;
+	font-size: 11px;
+	font-style: italic;
+	margin: 6px 0 0 190px;
+}
+
+/*form input#enroll{
+	cursor:pointer;
+}*/

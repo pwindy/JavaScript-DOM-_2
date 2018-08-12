@@ -1,0 +1,118 @@
+@charset "UTF-8";
+	/*common style begin*/
+	*{
+		margin:0;
+		padding:0;
+	}
+
+	header,nav{
+		display:block;
+	}
+	ul{
+		list-style:none;
+	}
+	a{
+		text-decoration:none;
+		color:#fff;
+	}
+	/*common style end*/
+
+
+
+	body{
+		width:100%;
+		height:100%;
+		background:url('../images/background.gif') repeat-x top left/contain fixed;
+	}
+	#wrap{
+		width:980px;
+		margin:10px auto 0;
+	}
+	header{
+		width:100%;
+		
+	}
+
+	header div{
+		width:100%;
+		height:250px;
+		position:relative;
+		background:url('../images/header_bgd.gif') repeat-x;
+	}
+	header div img{
+		position:absolute;
+	}
+	header div .img_left{
+		left:0;
+		top:0;
+		width:350px;
+		height:250px;
+	}
+	header div .img_right{
+		right:0;
+		bottom:0;
+		width:250px;
+		height:250px;
+	}
+
+	header nav{
+		width:100%;
+		height:30px;
+		background:url('../images/navbar.gif') repeat-x;
+	}
+	header nav ul{
+		width:60%;
+		height:30px;
+		margin-left:100px;
+	}
+	header nav li{
+		height:100%;
+		float:left;
+		border-right:2px solid #9999AA;
+	}
+	header nav li:first-child{
+		border-left: 2px solid #9999AA;
+	}
+	header nav li a{
+		display:block;
+		padding:0 20px;
+		height:30px;
+		line-height:30px;
+		font-size:12px;
+	}
+	header nav li a:link,header nav li a:visited {
+		color: #eef;
+		background-color: transparent;
+		border-color: #99a;
+	}
+	header nav li a:hover {
+		color: #445;
+		background-color: #eb6;
+	}
+	header nav li a:active {
+		color: #667;
+		background-color: #ec8;
+	}
+
+	header nav li a.here:link,
+	header nav li a.here:visited,
+	header nav li a.here:hover,
+	header nav li a.here:active {
+	  color: #eef;
+	  background-color: #799;
+	}
+	
+
+
+	#wrap>div{
+		/*width:100%;*/
+		padding:30px 100px 50px;
+		background-color:#EEDDCC;
+	}
+	/*#wrap>div h1{
+		font:normal 30px '微软雅黑';
+	}*/
+	#wrap>div a:hover{
+		color:#000;
+		background-color:#EEBB66;	
+	}
